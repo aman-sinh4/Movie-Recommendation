@@ -15,12 +15,22 @@
     margin-bottom:25px ;
     
 }
+
 .emojiInput:focus-within
-  {
+{
     box-shadow: 5px 5px 5px 5px lightslategray;
-  }
-  .emoji{
+}
+
+.emoji
+{
     font-size: x-large;
     padding-right: 2rem;
     cursor: pointer;
-  }
+}
+
+.meaning
+{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+}

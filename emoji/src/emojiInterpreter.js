@@ -33,8 +33,8 @@ function EmojiInterpreter() {
   return (
     <div className="main">
       <h1 className="title"><img src="https://emojipedia.org/static/img/logo/emojipedia-logo-64.f24011dcde3f.png" alt="logo" /></h1>
-      <input className="emojiInput" placeholder="Search Emojis" onChange={emojiInputHandler} />
-      <h1>{meaning}</h1>
+      <input className="emojiInput" placeholder=" Search Emojis" onChange={emojiInputHandler} />
+      <h3 className="meaning">{meaning}</h3>
       <h3>Emojis we know</h3>
       {
         emojisWeknow.map(function (emoji){
