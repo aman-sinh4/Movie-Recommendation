@@ -1,0 +1,15 @@
+.header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    z-index: 100;  
+}
+.icons{
+    color: white;
+    margin-left:40px;
+    text-decoration: none;
+    justify-content: space-between;
+    
+}

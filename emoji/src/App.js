@@ -1,34 +1,29 @@
 import './App.css';
-import React, {useState} from 'react';
-
-const emojiDictionary ={
-  "🙂": "Smiling",
-  "😳": "disbelief",
-  "😔": "sad",
-  "🥡": "takeout box",
-  "❤": "love",
-  "😑":"annoyance"
-};
+import EmojiInterpreter from './emojiInterpreter';
+import React from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Header from './navbar';
+import HomePage from './Home';
 
 function App() {
-  var[meaning,setMean]=useState(null)
-  function emojiInputHandler(e){
-    var userInput= e.target.value;
-    
-    var meaning = emojiDictionary[userInput];
-    if(meaning===undefined){
-      meaning="We don't have this in our database yet";
-    }
-    setMean(meaning)
-  }
-  
-  return (
+  return(
+    <Router>
     <div className="App">
-      <h1>Emoji Interpreter</h1>
-      <input className="emojiInput" placeholder="Enter Emoji" onChange={emojiInputHandler} />
-      <h1>{meaning}</h1>
+
+    <Header />
+        
+        
+        <Switch>
+          <Route path="/" exact={true}><HomePage /></Route>
+          <Route path="/emojiInterpreter"><EmojiInterpreter /></Route>
+        </Switch>
+
+
+     
+      
     </div>
-  );
+    </Router>
+  )
 }
 
 export default App;

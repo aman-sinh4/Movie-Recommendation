@@ -1,0 +1,26 @@
+
+.title{
+  font-family:ubuntu;
+  margin-bottom:30px;
+  margin-top: 7%;
+  font-weight: 500;
+  word-spacing: 10px;
+}
+.emojiInput{
+    width: 300px;
+    height: 50px;
+    text-align:start;
+    border-radius: 6px;
+    transition: .1s ease-in;
+    margin-bottom:25px ;
+    
+}
+.emojiInput:focus-within
+  {
+    box-shadow: 5px 5px 5px 5px lightslategray;
+  }
+  .emoji{
+    font-size: x-large;
+    padding-right: 2rem;
+    cursor: pointer;
+  }
