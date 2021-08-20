@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from './navbar';
 import HomePage from './Home';
 import Footer from './footer';
+import Movie from './movie';
 function App() {
   return(
     <Router>
@@ -14,7 +15,9 @@ function App() {
 
         <Switch>
           <Route path="/" exact={true}><HomePage /></Route>
-          <Route path="/emojiInterpreter"><EmojiInterpreter /></Route>
+          <Route path="/emoji-Interpreter" exact={true}><EmojiInterpreter /></Route>
+          <Route path="/movie-recommendation" exact={true}><Movie /></Route>
+
         </Switch>
         
         <Footer />

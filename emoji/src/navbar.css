@@ -23,3 +23,7 @@
     text-decoration: none;
     margin-right: 50px;
 }
+.icons-active{
+    font-weight: 500;
+    color: blue;
+}
