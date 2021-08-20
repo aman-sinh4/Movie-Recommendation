@@ -1,15 +1,25 @@
 .header{
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
     background-color: black;
     position: sticky;
     z-index: 100;  
+    justify-content: space-between;
 }
-.icons{
+.logo{
     color: white;
     margin-left:40px;
     text-decoration: none;
-    justify-content: space-between;
-    
+    align-items: center;
+}
+.icons-list{
+    align-items: center;
+    margin-top: 10px;
+    padding-right: 2rem;
+}
+.icons{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
 }

@@ -5,9 +5,16 @@ function Header() {
     return (
         <div class="header">
 
-                <Link className="icons" to="/"><span>Home</span></Link>
-                <Link className="icons" to="/emojiInterpreter"><span>Emoji Interpreter</span></Link>
-            
+                <Link className="logo" to="/"><span>Home</span></Link>
+                <ul className="icons-list">
+                    
+                    <Link className="icons" to="/emojiInterpreter"><span>Emoji Interpreter</span></Link>
+
+                    <Link className="icons" to="/emojiInterpreter"><span>Movie</span></Link>
+
+                    <Link className="icons" to="/emojiInterpreter"><span>Books</span></Link>
+                    
+                </ul>
         </div>
     )
 }
