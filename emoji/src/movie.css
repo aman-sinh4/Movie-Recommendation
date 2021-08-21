@@ -1,0 +1,33 @@
+.movie{
+    display: inline;
+    max-width: 1200px;
+    align-items: center;
+    margin: auto;
+}
+.btn > button{
+    width: 5rem;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-right: 1rem 
+}
+.btn > button:hover{
+    background: #2b2b2b;
+    color: white;
+    
+}
+.movie-container{
+    
+    width: 400px;
+    border: 2px solid lightgray;
+    margin: 12px;
+    
+}
+.movie-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movie-container >img{
+    margin-top: 6px;
+    width: 200px;
+}

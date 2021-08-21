@@ -2,7 +2,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: #2b2b2b;
     position: sticky;
     z-index: 100;  
     justify-content: space-between;
@@ -15,15 +15,11 @@
 }
 .icons-list{
     align-items: center;
-    margin-top: 10px;
+    margin-top: 13px;
     padding-right: 2rem;
 }
 .icons{
     color: white;
     text-decoration: none;
     margin-right: 50px;
-}
-.icons-active{
-    font-weight: 500;
-    color: blue;
 }

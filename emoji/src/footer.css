@@ -2,13 +2,12 @@ footer{
     width: 100%;
     padding: 10px 23px;
     text-align: center;
-    background: #111;
+    background: #2b2b2b;
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
     height: 80px;
     bottom: 0;
-    position: absolute;
-    z-index: 999;
+    position:absolute;
 }
 .social-links{
     list-style: none;

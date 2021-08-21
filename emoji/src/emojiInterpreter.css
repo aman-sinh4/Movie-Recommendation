@@ -1,3 +1,6 @@
+.main{
+  z-index: 999;
+}
 
 .title{
   font-family:ubuntu;
@@ -32,7 +35,10 @@
 .meaning
 {
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  background-image:linear-gradient(to top, #121FCF 0%, #CF1512 100%);
+  background-clip: text;
+  
   
 }
 .title2{
