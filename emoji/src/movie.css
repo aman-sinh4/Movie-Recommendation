@@ -2,7 +2,7 @@
     display: inline;
     max-width: 1200px;
     align-items: center;
-    margin: auto;
+    
 }
 .btn > button{
     width: 5rem;
@@ -12,15 +12,18 @@
 }
 .btn > button:hover{
     background: #2b2b2b;
+    color: white; 
+}
+.btn > button:focus{
+    background: #2b2b2b;
     color: white;
-    
 }
 .movie-container{
     
-    width: 400px;
+    width: 300px;
     border: 2px solid lightgray;
-    margin: 12px;
-    
+    margin-right: 12px;
+    margin-top: 30px;
 }
 .movie-info{
     display: flex;
@@ -30,4 +33,10 @@
 .movie-container >img{
     margin-top: 6px;
     width: 200px;
+}
+.movie-container>h2{
+    margin-bottom: 10px;
+}
+.movie-container>span{
+    margin-bottom: 10px;
 }
