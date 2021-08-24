@@ -4,6 +4,10 @@
     align-items: center;
     
 }
+.movie > h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 .btn > button{
     width: 5rem;
     border-radius: 6px;

@@ -22,4 +22,9 @@
     color: white;
     text-decoration: none;
     margin-right: 50px;
+    display: inline-flex;
+}
+.active{
+   color: blue;
+   font-weight: 500;
 }

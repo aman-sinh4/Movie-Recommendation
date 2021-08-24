@@ -61,7 +61,7 @@ const movieDb= {
 }
 
 function Movie({image,title,rating}) {
-    const[genre, setGenre]= useState("comedy")
+    const[genre, setGenre]= useState("")
     
     return (
         <div className="movie">
@@ -154,7 +154,8 @@ function Movie({image,title,rating}) {
                 </div>
                 
                 
-                </div>:null
+                </div>:
+                <div><br /><br /><h5>TAP YOUR FAVOURITE GENRE</h5></div>
 
                 
             }
