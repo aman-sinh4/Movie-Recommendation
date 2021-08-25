@@ -4,8 +4,8 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from './navbar';
 import HomePage from './Home';
-import Footer from './footer';
 import Movie from './movie';
+import Books from './book';
 function App() {
   return(
     <Router>
@@ -17,10 +17,12 @@ function App() {
           <Route path="/" exact={true}><HomePage /></Route>
           <Route path="/emoji-Interpreter" exact={true}><EmojiInterpreter /></Route>
           <Route path="/movie-recommendation" exact={true}><Movie /></Route>
+          <Route path="/book-recommendation" exact={true}><Books /></Route>
+
 
         </Switch>
         
-        <Footer />
+       
     
 
      

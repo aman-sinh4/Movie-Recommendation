@@ -18,7 +18,8 @@ function EmojiInterpreter() {
   function emojiInputHandler(e){
     var userInput= e.target.value;
     var meaning = emojiDictionary[userInput];
-    if(meaning===undefined && userInput.length!==0){
+    if(meaning===undefined && userInput.length!==0)
+    {
       meaning="We don't have this in our database";
     }
     setMean(meaning)
