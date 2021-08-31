@@ -1,28 +1,19 @@
 .header{
     height: 60px;
-    display: flex;
-    align-items: center;
     background-color: #2b2b2b;
-    position: sticky;
-    z-index: 100;  
-    justify-content: space-between;
-}
-.logo{
-    color: white;
-    margin-left:40px;
-    text-decoration: none;
-    align-items: center;
-}
-.icons-list{
-    align-items: center;
-    margin-top: 13px;
-    padding-right: 2rem;
+    position: sticky; 
+    
 }
 .icons{
     color: white;
     text-decoration: none;
     margin-right: 50px;
+    margin-top: 15px;
+}
+.icons-list{
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 .active{
    color: blue;
