@@ -5,10 +5,10 @@ function Header() {
     return (
         <div class="header">
 
-                <Link className="logo" to="/"><span>Home</span></Link>
+                
                 <ul className="icons-list">
                     
-                    <NavLink className="icons" to="/emoji-Interpreter"><span>Emoji Interpreter</span></NavLink>
+                    <Link className="icons" to="/"><span>Emoji Interpreter</span></Link>
 
                     <NavLink className="icons" to="/movie-recommendation"><span>Movie</span></NavLink>
 

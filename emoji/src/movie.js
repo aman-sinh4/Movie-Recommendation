@@ -43,7 +43,7 @@ const movieDb= {
     scifi:{
         one:{
             image:"https://m.media-amazon.com/images/M/MV5BNTI2YTI0MWEtNGQ4OS00ODIzLWE1MWEtZGJiN2E3ZmM1OWI1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
-            title:"The Tomorrow War",
+            title:"Tomorrow War",
             rating: "⭐⭐⭐⭐"
         },
         two:

@@ -1,7 +1,6 @@
 .books{
-   
-    display: inline-block;
-    max-width: 1200px;
+    display: inline;
+    max-width: 900px;
     align-items: center;
         
 }
@@ -14,4 +13,38 @@
 .books > button:hover{
     background: #2b2b2b;
     color: #fff;
+}
+.booklist{
+    border: 2px solid lightgray;
+    margin-right: 30px;
+    margin-top: 30px;
+    max-width: 300px;
+    max-height: 500px;
+    list-style: none;
+}
+.book-info{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.book-img{
+    width: 200px;
+    height: 300px;
+
+}
+.genre> button{
+    border-radius: 6px;
+    width: 6rem;
+    border: 1px solid black;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.genre > button:hover{
+    background: #2b2b2b;
+    color: white; 
+}
+.genre > button:focus{
+    background: #2b2b2b;
+    color: white;
 }
