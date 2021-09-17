@@ -1,5 +1,4 @@
 import './App.css';
-import EmojiInterpreter from './emojiInterpreter';
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from './navbar';
@@ -15,12 +14,12 @@ function App() {
         <Switch>
           
           
-          <Route path="/movie-recommendation" exact={true}><Movie /></Route>
+          <Route path="/movie" exact={true}><Movie /></Route>
           <Route path="/book-recommendation" exact={true}><Books /></Route>
 
 
         </Switch>
-        <Route path="/" exact={true}><EmojiInterpreter /></Route>
+  
         
        
     

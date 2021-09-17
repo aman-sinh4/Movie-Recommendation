@@ -7,12 +7,10 @@ function Header() {
 
                 
                 <ul className="icons-list">
-                    
-                    <Link className="icons" to="/"><span>Emoji Interpreter</span></Link>
 
-                    <NavLink className="icons" to="/movie-recommendation"><span>Movie</span></NavLink>
+                    <NavLink className="icons ms" to="/movie" ><span>Movie</span></NavLink>
 
-                    <NavLink className="icons" to="/book-recommendation"><span>Books</span></NavLink>
+                    <NavLink className="icons" to="/book-recommendation" ><span>Books</span></NavLink>
                     
                 </ul>
         </div>

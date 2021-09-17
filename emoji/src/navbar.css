@@ -16,6 +16,10 @@
     justify-content: center;
 }
 .active{
-   color: blue;
+   color: rgb(255, 0, 0);
+   font-weight: 500;
+}
+.active2{
+    color: rgb(0, 47, 255);
    font-weight: 500;
 }
