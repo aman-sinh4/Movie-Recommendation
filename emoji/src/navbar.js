@@ -8,7 +8,7 @@ function Header() {
                 
                 <ul className="icons-list">
 
-                    <NavLink className="icons ms" to="/movie" ><span>Movie</span></NavLink>
+                    <NavLink className="icons ms" to="/" ><span>Movie</span></NavLink>
 
                     <NavLink className="icons" to="/book-recommendation" ><span>Books</span></NavLink>
                     

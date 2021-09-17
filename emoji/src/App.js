@@ -14,7 +14,7 @@ function App() {
         <Switch>
           
           
-          <Route path="/movie" exact={true}><Movie /></Route>
+          <Route path="/" exact={true}><Movie /></Route>
           <Route path="/book-recommendation" exact={true}><Books /></Route>
 
 
